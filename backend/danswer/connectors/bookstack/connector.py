@@ -20,7 +20,7 @@ from danswer.file_processing.html_utils import parse_html_page_basic
 
 class BookstackConnector(LoadConnector, PollConnector):
   
-    redacted_list = ['policies-editor', 'procedures-editor', 'processes-editor', 'isms-editor', 'policies-archive', 'procedures-archive', 'processes-archive', 'isms-archive', 'drafts', 'to-be-validated', 'drafts-V58', 'to-be-validated-6vj']
+    redacted_list = ['policies-editor', 'procedures-editor', 'processes-editor', 'isms-editor', 'policies-archive', 'procedures-archive', 'processes-archive', 'isms-archive', 'app-drafts', 'app-to-be-validated', 'sap-drafts', 'sap-to-be-validated']
 
     def __init__(
         self,
